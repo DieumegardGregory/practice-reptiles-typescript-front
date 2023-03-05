@@ -1,0 +1,13 @@
+version: "3"
+services:
+  react-ui:
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
+    container_name: ReptileShopFront
+
+    # stdin_open: true
+    # volumes:
+    #   - ./my-app:/usr/src/app/my-app
+    #   - /usr/src/app/my-app/node_modules
